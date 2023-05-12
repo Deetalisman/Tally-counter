@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: aqua;
+    color: darkblue;
+}
+nav{
+    text-align: center;
+}
+nav img{
+    width: 100%;
+    margin-top: 27%;
+}
+nav h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+nav h1 span{
+    margin-left: 50%;
+    color:rgb(53, 24, 239);
+    font-size: 70px;
+}
+nav a{
+    text-align: right;
+    text-decoration: none;
+    margin-top: 30px;
+}

@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    background-color: aqua;
+}
+nav{
+    padding: 0;
+}
+header{
+    background-color: aqua;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    color:darkgreen;
+    font-size: 20px;
+    box-shadow: 0px 15px 10px -15px #111;
+    width: 100%;
+}
+.header-left{
+    display: flex;
+}
+.header-left i{
+    cursor: pointer;
+}
+.header-left p{
+    margin-left: 10px;
+}
+.header-right button{
+    width: 80px;
+    height: 27px;
+    background-color: transparent;
+    color:black;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+section{
+    margin: 10% auto 8%;
+    width: 80%;
+    font-size: 25px;
+    box-shadow:0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 30px;
+    color: darkgreen;
+     text-align: center;
+     background-color: white;
+}
+
+main{
+   text-align: center;
+    margin-top: 64px;
+}
+.counter{
+    text-align: center;
+    color: white;
+    background-color: rgb(82, 230, 230);
+     padding: 20px;
+     padding-bottom: 3%;
+}
+.counter img{
+    width: 190px;
+    cursor: pointer;
+}
+.count h3{
+    text-align: center;
+    color: darkgreen;
+    font-size: 25px;
+}
+.number{
+    background-color: rgb(53, 188, 143);
+     padding: 5px;
+     font-size: 40px;
+     text-align: center;
+     color: white;
+     margin-top: 3px;
+     border-top-right-radius: 180px;
+     border-top-left-radius: 180px;
+}
+.foot{
+    background-color: rgb(53, 188, 143);
+     height: 47px;
+     border-bottom-right-radius: 180px;
+     border-bottom-left-radius: 180px;
+}
