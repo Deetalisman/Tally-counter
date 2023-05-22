@@ -5,13 +5,12 @@
 }
 body{
     padding: 0;
-    background-color: aqua;
 }
 nav{
     padding: 0;
 }
 header{
-    background-color: aqua;
+    background-color:rgb(108, 253, 108);
     padding: 20px 20px;
     display: flex;
     justify-content: space-between;
@@ -53,17 +52,18 @@ section{
 
 main{
    text-align: center;
-    margin-top: 64px;
+    margin-top: 9%;
 }
 .counter{
     text-align: center;
     color: white;
-    background-color: rgb(82, 230, 230);
-     padding: 20px;
+    background-color:rgb(108, 253, 108);
+     padding: 10px;
      padding-bottom: 3%;
 }
 .counter img{
-    width: 190px;
+    width: 230px;
+    height: 180px;
     cursor: pointer;
 }
 .count h3{
@@ -71,8 +71,11 @@ main{
     color: darkgreen;
     font-size: 25px;
 }
+.counter p{
+    font-size: 18px;
+}
 .number{
-    background-color: rgb(53, 188, 143);
+    background-color: limegreen;
      padding: 5px;
      font-size: 40px;
      text-align: center;
@@ -82,7 +85,7 @@ main{
      border-top-left-radius: 180px;
 }
 .foot{
-    background-color: rgb(53, 188, 143);
+    background-color: limegreen;
      height: 47px;
      border-bottom-right-radius: 180px;
      border-bottom-left-radius: 180px;
